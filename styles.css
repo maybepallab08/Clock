@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+.clock{
+    height: 500px;
+    width: 500px;
+    margin:0 auto;
+    margin-top: 150px;
+    border-radius: 50%;
+    border:solid;
+    border-width:20px;
+    background-color: #f6d79f;
+    position: relative;
+    text-align: center;
+    color:rgb(63, 49, 39);
+    
+}
+.hr{
+    font-size:32px;
+    position:absolute;
+    border-radius: 20%;
+}
+.hr1{
+left:362px;
+ margin-top:44px;
+}
+.hr2{
+ margin-left:436px;
+ margin-top:134px;
+}
+.hr3{
+ margin-left:470px;
+ margin-top:234px;
+}
+.hr4{
+ margin-left:436px;
+ margin-top:346px;
+}
+.hr5{
+ margin-left:360px;
+ margin-top:420px;
+}
+.hr6{
+ margin-left:242px;
+ margin-top:456px;
+}
+.hr7{
+ margin-left:140px;
+ margin-top:430px;
+}
+.hr8{
+ margin-left:50px;
+ margin-top:346px;
+}
+.hr9{
+ margin-left:10px;
+ margin-top:234px;
+}
+.hr10{
+ margin-left:40px;
+ margin-top:134px;
+}
+.hr11{
+ margin-left:130px;
+ margin-top:40px;
+}
+.hr12{
+ margin-left:242px;
+ margin-top:10px;
+}
+.center{
+    border:solid rgb(63, 49, 39);
+    border-width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top:250px;
+    left:245px;
+    /* margin:auto; */
+}
+#hrhand{
+/* border:black solid 4px; */
+top: 250px;
+left:250px;
+height:10px;
+width: 140px;
+background-color: #AA8B56;
+transform-origin: 0%;
+}
+
+#minhand{
+    /* border:black solid 3px; */
+    top: 250px;
+    left:250px;
+    height:8px;
+    width:180px;
+    background-color: #594545;
+    transform-origin: 0%;
+    
+}
+#sechand {
+    /* border:black solid 3px; */
+    top: 250px;
+    left:250px;
+    height:2px;
+    width:200px;
+    background-color: black;
+    /* transform: rotate(270deg); */
+    transform-origin: 0%;
+}
